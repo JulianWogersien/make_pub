@@ -1,7 +1,14 @@
 [package]
 name = "make_pub"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2024"
+description = "Macro that makes all Fields in a struct public"
+license = "GPL-3.0-or-later"
+authors = ["Julian Wogersien <julian.wogersien@gmail.com>"]
+license-file = "LICENSE"
+readme = "README.md"
+keywords = ["macro"]
+homepage = "https://github.com/JulianWogersien/make_pub"
 
 [lib]
 proc-macro = true
